@@ -6,7 +6,7 @@ namespace event_trigger
     {
         static void Main(string[] args)
         {
-            var trigger = new DailyTrigger(15, 42); // every day at 4:00pm
+            var trigger = new DailyTrigger(16, 10, 25); // every day at 4:00pm
 
             trigger.OnTimeTriggered += () =>
             {
